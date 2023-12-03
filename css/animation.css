@@ -1,0 +1,24 @@
+
+@keyframes change-color{
+    0%{
+      color: #2980b9;
+    }
+    20%{
+      color: #27ae;
+    }
+    40%{
+      color: #27ae;
+    }
+    40%{
+      color: #d35400;
+    }
+    60%{
+      color: #d35400;
+    }
+    80%{
+      color: #8e77ad;
+    }
+    100%{
+      color: #8e77ad;
+    }
+  }

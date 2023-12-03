@@ -1,0 +1,42 @@
+.contan {
+  width: 80%;
+}
+header .coon {
+padding: 0 50px;
+}
+header nav a,
+header span ,
+header span i::before{
+  padding: 40px 50px;
+  font-size: 40px;
+}
+.servies .serv-cont{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  gap: 40px;
+  row-gap: 60px;
+}
+.design {
+  height: 700px;
+}
+.design .img img {
+  width: 500px;
+  bottom: -180px;
+}
+.design .text {
+  padding: 30px;
+}
+.design .text h2 {
+font-size: 50px;
+}
+.design .text ul li {
+font-size: 45px;
+}
+.stats .contan .box i{
+  font-size: 60px;
+  width: 90px;
+  height: 90px;
+}
+.stats .contan .box .number{
+  font-size: 60px;
+}

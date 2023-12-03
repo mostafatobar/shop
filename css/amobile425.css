@@ -1,0 +1,79 @@
+.contan {
+  width: 97%;
+}
+header span .fa-search {
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.landing {
+  min-height: 150vh;
+}
+.heading {
+  padding: 20px 3px;
+}
+.heading p {
+  margin-bottom: 20px;
+}
+.servies .serv-cont {
+  display: flex;
+  flex-direction: column;
+}
+.servies .serv-cont .serv-box {
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.servies .serv-cont .serv-box i {
+  margin: 0 0 30px;
+}
+.servies .serv-cont .serv-box .text p {
+  line-height: 1.5;
+}
+.design .img {
+  display: none;
+}
+.design .text {
+  margin: 3px;
+  padding: 3px;
+}
+.portfolio .imgs-hold .box {
+  flex-basis: 100%;
+}
+.about img {
+  bottom: -70px;
+  margin-top: -50px;
+}
+.stats .contan .box {
+  flex-basis: 100%;
+}
+.video .text {
+  padding: 0;
+}
+.skils .contan > div {
+  flex-basis: 100%;
+}
+.skils .contan .testimonials .imgs {
+  flex-direction: column;
+  justify-content: center;
+}
+.skils .contan .testimonials .imgs img {
+  margin: 0 auto 20px;
+}
+.subscribe .contan {
+  flex-direction: column;
+}
+.subscribe .contan p {
+  margin-left: 30px 0 0;
+}
+.contact .cont {
+  flex-direction: column;
+}
+.contact .info {
+  order: -1;
+}
+.contact .info h4:nth-of-type(2) {
+  margin-top: 30px;
+}
+.contact .info address {
+  margin-bottom: 40px;
+  text-align: center;
+}

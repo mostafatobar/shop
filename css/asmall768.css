@@ -1,0 +1,108 @@
+:root {
+  --main-color: #19c8fa;
+  --main-color-p: #777;
+  --main-color2: rgba(15, 116, 143, 0.7);
+  --main-padding: 100px;
+}
+.contan {
+  width: 95%;
+}
+header .contan {
+  display: flex;
+  justify-content: space-between;
+}
+header .coon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header .menu {
+  font-size: 50px;
+  color: white;
+  padding: 0 30px;
+  display: block;
+}
+header nav {
+  display: flex;
+  position: absolute;
+  top: 120px;
+  right: 0;
+  width: 100%;
+  flex-direction: column;
+  display: none;
+}
+header nav a {
+  display: flex;
+  font-weight: 400;
+  padding: 15px;
+  color: white;
+  transition: 0.3s;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+header nav a.active,
+header nav a:hover {
+  color: var(--main-color);
+  transform: scale(1, 1.1);
+  border-bottom: 3px solid var(--main-color);
+}
+header .menu:hover + nav {
+  display: flex;
+}
+.landing {
+  min-height: 130vh;
+}
+.landing .text {
+  width: 100%;
+}
+.landing .text .content {
+  max-width: 100%;
+}
+.landing i {
+  display: none;
+}
+.servies .serv-cont {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  row-gap: 60px;
+}
+.servies .serv-cont .serv-box i {
+  margin-right: calc(var(--main-padding) / 4);
+}
+.servies .serv-cont .serv-box .text p {
+  line-height: 1.5;
+}
+.video .text {
+  padding: 0;
+}
+.stats .contan .box {
+  flex-basis: 50%;
+}
+@media (max-width: 885px) {
+  .skils .contan > div {
+    flex-basis: 100%;
+  }
+  .skils .contan .bullets {
+    bottom: -5px;
+  }
+}
+.subscribe .contan {
+  flex-direction: column;
+}
+.subscribe .contan p {
+  margin-left: 30px 0 0;
+}
+.contact .cont {
+  flex-direction: column;
+}
+.contact .info {
+  order: -1;
+}
+.contact .info h4:nth-of-type(2) {
+  margin-top: 30px;
+}
+.contact .info address {
+  margin-bottom: 40px;
+  text-align: center;
+}
